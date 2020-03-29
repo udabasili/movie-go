@@ -1,0 +1,33 @@
+.nav-movie-go-container{
+    width: 100%;
+    background-color: black;
+}
+
+.nav-movie-go-list{
+    margin: 0;
+    color: yellow;
+    display: flex;
+    padding: 0;
+    list-style: none;
+    justify-content: space-around;
+    font: 8rem;
+}
+
+.nav-movie-go-item {
+    width: calc(100%/6);
+    cursor: pointer;
+}
+
+.nav-movie-go-link {
+    text-decoration: none;
+    color: yellow;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.activeLink{
+    color: black;
+    background-color: yellow;
+}

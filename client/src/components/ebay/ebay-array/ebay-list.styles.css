@@ -1,0 +1,30 @@
+.ebay-sales-list{
+    background: rgba(255, 255, 0, 0.589);
+    border-bottom: 3px solid #000000;
+}
+
+.ebay-sales-list-title{
+    text-decoration: none;
+    color: black;
+}
+
+.ebay-button{
+    position: relative;
+    display: inline-block;
+	padding: .4em;
+	color: yellow;
+    border: .5px solid black;
+    text-decoration: none;
+    background-color: black;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.082),
+    0 8px 10px rgba(0, 0, 0, 0.219);
+	left: 50%;
+	cursor: pointer;
+	transform: translateX(-50%);
+	bottom: 0;
+}
+
+.ebay-button:hover{
+    opacity: .7;
+}

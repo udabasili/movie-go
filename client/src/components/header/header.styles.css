@@ -1,0 +1,50 @@
+
+/*navigation bar main container*/
+.navigation{
+	position: relative;
+	width: 100%;
+	background-color: rgb(22, 19, 19);
+	display: flex;
+}
+
+.navigation .logo{
+	justify-content: flex-start;
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+}
+
+.logo-text {
+	font-size: 2rem;
+	padding-left: 2rem;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-family: 'Anton', sans-serif;
+	color: transparent;
+	background: linear-gradient( to right, rgb(238, 238, 124), yellow);
+	-webkit-background-clip: text;
+
+
+}
+
+/** mobile screen css modification**/
+@media only screen and (max-width: 600px) {
+	.navigation-container{
+		margin: 0;
+		padding: 0;
+	}
+	.navigation-container .navigation-list{
+		color:black;
+		font-size: 1rem;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		font-family: 'Limelight', cursive;
+		list-style-type: none;
+	}
+	
+	
+ }
+
+
+
